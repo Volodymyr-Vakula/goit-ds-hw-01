@@ -1,0 +1,19 @@
+[project]
+name = "goit-ds-hw-01"
+version = "0.1.0"
+description = "Phone Bot"
+authors = [
+    {name = "Volodymyr Vakula",email = "vakula.volodymyr@gmail.com"}
+]
+readme = "README.md"
+requires-python = "3.13.1"
+dependencies = [
+    "colorama==0.4.6"
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core==2.0.0"]
+build-backend = "poetry.core.masonry.api"
